@@ -138,4 +138,5 @@ Sub UnormujDaty()
         End If
     Next komorka
 End Sub
-
+--------
+[context] jestes ekspertem excela [task] wygeneruj plik z danymi sprzedazowymi, mja byc id produkt, cena , 30 wierszy [Process] wygeneruj dane. oznacz kolumny id, produkt, cena brutto [Format] najpierw krotki opis rozwiazania, następnie gotowy plik, nastepnie mozłiwosci analizy tego pliku, [ton] ton techniczny
