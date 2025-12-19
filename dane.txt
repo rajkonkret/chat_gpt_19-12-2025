@@ -74,3 +74,37 @@ Now provide me with a formula for Who is the Top Salesperson overall ? Name of t
 =INDEKS(D6:D100;PODAJ.POZYCJĘ(MAX(G6:G100);G6:G100;0))
 -------------
 https://chatgpt.com/share/e/69452cf6-fa5c-8013-ab2f-7b0f91d88a89
+
+--------
+Sub UnormujDaty()
+    Dim rng As Range
+    Dim cell As Range
+    Dim columnNumber As Integer
+    Dim outputColumn As Integer
+    Dim dateValue As Variant
+
+    ' Kolumna E to numer 5
+    columnNumber = 5
+    ' Kolumna G to numer 7
+    outputColumn = 7
+    
+    ' Zaznaczenie zakresu danych w kolumnie E, zaczynając od wiersza 6
+    Set rng = ActiveSheet.Range("E6:E" & ActiveSheet.Cells(Rows.Count, columnNumber).End(xlUp).Row)
+    
+    ' Przechodzenie przez każdą komórkę w kolumnie E
+    For Each cell In rng
+        If IsDate(cell.Value) Then
+            ' Jeśli komórka zawiera datę, konwertujemy ją na format dd-mm-yyyy i zapisujemy w kolumnie G
+            dateValue = CDate(cell.Value)
+            cell.Offset(0, outputColumn - columnNumber).Value = Format(dateValue, "dd-mm-yyyy")
+        Else
+            ' Jeżeli nie jest datą, sprawdzamy format tekstowy i próbujemy przekonwertować
+            On Error Resume Next
+            dateValue = DateValue(cell.Value)
+            If Err.Number = 0 Then
+                cell.Offset(0, outputColumn - columnNumber).Value = Format(dateValue, "dd-mm-yyyy")
+            End If
+            On Error GoTo 0
+        End If
+    Next cell
+End Sub
