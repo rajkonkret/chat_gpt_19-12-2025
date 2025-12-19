@@ -138,5 +138,7 @@ Sub UnormujDaty()
         End If
     Next komorka
 End Sub
+-----------
+https://chatgpt.com/g/g-6945491ca42c8191b2c4a747d0577c03-asystent-diagramow
 --------
 [context] jestes ekspertem excela [task] wygeneruj plik z danymi sprzedazowymi, mja byc id produkt, cena , 30 wierszy [Process] wygeneruj dane. oznacz kolumny id, produkt, cena brutto [Format] najpierw krotki opis rozwiazania, następnie gotowy plik, nastepnie mozłiwosci analizy tego pliku, [ton] ton techniczny
