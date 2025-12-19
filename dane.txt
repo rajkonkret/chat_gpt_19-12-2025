@@ -5,3 +5,4 @@ JEŻELI(LICZ.JEŻELI($D:$D;D2)>1;
 "OK"))
 
 https://chatgpt.com/share/e/69452cf6-fa5c-8013-ab2f-7b0f91d88a89
+pojedyncza odpowiedz: https://chatgpt.com/s/t_69452d690dcc8191995d71da48ecf868
