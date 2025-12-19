@@ -108,3 +108,34 @@ Sub UnormujDaty()
         End If
     Next cell
 End Sub
+---------
+poprawione jako tekst:
+Sub UnormujDaty()
+    Dim rng As Range
+    Dim komorka As Range
+    Dim tekstData As String
+    Dim poprawionaData As Date
+    Dim formatowanaData As String
+
+    ' Ustawienie zakresu danych w kolumnie E
+    Set rng = Range("E2:E" & Cells(Rows.Count, "E").End(xlUp).Row)
+
+    ' Iteracja przez każdą komórkę w kolumnie E
+    For Each komorka In rng
+        tekstData = komorka.Value
+
+        ' Jeśli komórka zawiera datę, traktujemy ją jako tekst
+        If IsDate(tekstData) Then
+            ' Konwertujemy datę na tekst w formacie dd-mm-yyyy
+            poprawionaData = CDate(tekstData)
+            formatowanaData = Format(poprawionaData, "dd-mm-yyyy")
+            
+            ' Wpisujemy wynik jako tekst
+            komorka.Offset(0, 3).Value = "'" & formatowanaData
+        Else
+            ' Jeśli wartość nie jest datą, zapisujemy "Błąd"
+            komorka.Offset(0, 3).Value = "Błąd"
+        End If
+    Next komorka
+End Sub
+
