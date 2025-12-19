@@ -61,3 +61,12 @@ Pattern **CTPFT** pomaga w organizowaniu zapytań do AI w sposób, który prowad
 
 Stosowanie tego podejścia pozwala na tworzenie bardziej zrozumiałych i efektywnych zapytań, co z kolei prowadzi do lepszych wyników z AI.
 
+--------
+First excel formula for What are the total sales ? Data is in column G. I need to put the formula in column P. Provide me with a formula.
+=SUMA(G:G)
+
+-----
+Now provide me with a formula for Who is the Top Salesperson overall ? Name of the sales person are in column D, sales amount in column G and i need to put formula in column P.
+
+=INDEKS(UNIKATOWE(D:D);PODAJ.POZYCJĘ(MAX(SUMA.JEŻELI(D:D;UNIKATOWE(D:D);G:G));SUMA.JEŻELI(D:D;UNIKATOWE(D:D);G:G);0))
+
