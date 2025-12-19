@@ -6,3 +6,58 @@ JEŻELI(LICZ.JEŻELI($D:$D;D2)>1;
 
 https://chatgpt.com/share/e/69452cf6-fa5c-8013-ab2f-7b0f91d88a89
 pojedyncza odpowiedz: https://chatgpt.com/s/t_69452d690dcc8191995d71da48ecf868
+------------
+**CTPFT** to akronim, który może odnosić się do różnych kontekstów, ale w odniesieniu do promtowania, jest to struktura wykorzystywana w zadaniach generowania odpowiedzi lub pracy z AI. W kontekście tworzenia skutecznych i przemyślanych zapytań do sztucznej inteligencji (prompt engineering), "CTPFT" oznacza:
+
+1. **C** – **Context (Kontekst)**
+2. **T** – **Task (Zadanie)**
+3. **P** – **Prompt (Pytanie/Prośba)**
+4. **F** – **Format (Format)**
+5. **T** – **Target (Cel)**
+
+### 1. **Context (Kontekst)**
+
+Kontekst to tło, które pomaga w zrozumieniu tematu zapytania. Daje sztucznej inteligencji odpowiednią ramę do formułowania odpowiedzi. Może to obejmować informacje o użytkowniku, wcześniejsze interakcje, lub konkretne dane, które są niezbędne do udzielenia precyzyjnej odpowiedzi.
+
+Przykład:
+
+* Jeśli pytasz o rekomendacje książek, kontekst może obejmować twoje zainteresowania literackie, np. "Jestem fanem powieści kryminalnych".
+
+### 2. **Task (Zadanie)**
+
+Zadanie precyzuje, co dokładnie chcesz, aby AI zrobiło. Może to być coś, co należy stworzyć, obliczyć, wyjaśnić lub rozwiązać.
+
+Przykład:
+
+* "Wygeneruj listę książek w gatunku kryminał."
+
+### 3. **Prompt (Pytanie/Prośba)**
+
+To jest zasadnicza część zapytania, która prosi o specyficzną odpowiedź. Jest to pytanie lub prośba, która kieruje sztuczną inteligencję na określony tor działania.
+
+Przykład:
+
+* "Poleć mi książki autorów, którzy pisali w stylu Agathy Christie."
+
+### 4. **Format (Format)**
+
+Format określa, jak chcesz, aby odpowiedź została przedstawiona. Może to być lista, akapit, tabela lub inne zorganizowane podejście. Określenie formatu pomaga uzyskać odpowiedź, która jest łatwa do zrozumienia lub użycia.
+
+Przykład:
+
+* "Proszę podać 5 książek w formie listy z tytułami i autorami."
+
+### 5. **Target (Cel)**
+
+Cel to to, co chcesz osiągnąć dzięki odpowiedzi. Jest to końcowy rezultat, który chcesz uzyskać z wykorzystaniem sztucznej inteligencji.
+
+Przykład:
+
+* "Chcę znaleźć nowe książki do przeczytania na podstawie moich ulubionych autorów."
+
+### Podsumowanie
+
+Pattern **CTPFT** pomaga w organizowaniu zapytań do AI w sposób, który prowadzi do bardziej precyzyjnych i skutecznych odpowiedzi. Obejmuje to odpowiedni kontekst, dokładnie określone zadanie, jasne pytanie, wskazanie formatu odpowiedzi oraz celu, jaki chcesz osiągnąć.
+
+Stosowanie tego podejścia pozwala na tworzenie bardziej zrozumiałych i efektywnych zapytań, co z kolei prowadzi do lepszych wyników z AI.
+
