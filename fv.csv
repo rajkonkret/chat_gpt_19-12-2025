@@ -1,0 +1,2 @@
+numer_faktury,data_wystawienia,sprzedawca,sprzedawca_nip,nabywca,nabywca_nip,kwota_brutto,waluta,vat_stawka,vat_kwota,forma_platnosci,termin_platnosci,pozycje
+001/10/2025,UNSURE,"TechMarket Sp. z o.o.","123-456-78-90","Radosław Janiak","987-654-32-10",5535.00,PLN,23%,1035.00,przelew,2025-11-07,"1x Laptop Lenovo ThinkPad E15 (netto 4500.00, VAT 23%)"
