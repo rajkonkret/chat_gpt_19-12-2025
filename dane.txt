@@ -70,3 +70,7 @@ Now provide me with a formula for Who is the Top Salesperson overall ? Name of t
 
 =INDEKS(UNIKATOWE(D:D);PODAJ.POZYCJĘ(MAX(SUMA.JEŻELI(D:D;UNIKATOWE(D:D);G:G));SUMA.JEŻELI(D:D;UNIKATOWE(D:D);G:G);0))
 
+-----------------------------
+=INDEKS(D6:D100;PODAJ.POZYCJĘ(MAX(G6:G100);G6:G100;0))
+-------------
+https://chatgpt.com/share/e/69452cf6-fa5c-8013-ab2f-7b0f91d88a89
